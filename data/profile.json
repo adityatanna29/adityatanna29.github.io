@@ -1,0 +1,23 @@
+{
+  "name": "Aditya Tanna",
+  "role": "Research Scientist",
+  "organization": "Lexsi Labs",
+  "email": "adityatanna29@gmail.com",
+  "github": "https://github.com/adityatanna29",
+  "linkedin": "https://www.linkedin.com/in/aditya-tanna29/",
+  "scholar": "https://scholar.google.com/citations?user=8y8sDywAAAAJ",
+  "updated": "September 2026",
+  "publications": [
+    {"id":"finetuning2026","title":"Exploring Fine-Tuning for Tabular Foundation Models","authors":"Aditya Tanna, Pratinav Seth, Mohamed Bouadi, Vinay Kumar Sankarapu","venue":"The Web Conference (WWW)","year":2026,"type":"Conference & journal","url":"https://dl.acm.org/doi/10.1145/3774904.3792923","selected":true,"pages":"8613–8616"},
+    {"id":"tabtune2026","title":"TabTune: A Unified Library for Inference and Fine-Tuning Tabular Foundation Models","authors":"Aditya Tanna, Pratinav Seth, Mohamed Bouadi, Vinay Kumar Sankarapu","venue":"The Web Conference (WWW), Companion","year":2026,"type":"Conference & journal","url":"https://dl.acm.org/doi/10.1145/3774905.3793137","selected":true,"pages":"204–207"},
+    {"id":"ontology2026","title":"Ontology Concept Overlap as a Training Signal: Knowledge-Grounded Reinforcement Learning for Clinical Question Answering","authors":"Aditya Tanna, Abhishek Jindal","venue":"CIKM","year":2026,"type":"Conference & journal","url":"","selected":false},
+    {"id":"orionbix2026","title":"Orion-BiX: Bi-Axial Attention for Tabular In-Context Learning","authors":"Mohamed Bouadi, Pratinav Seth, Aditya Tanna, Vinay Kumar Sankarapu","venue":"The Web Conference (WWW)","year":2026,"type":"Conference & journal","url":"https://dl.acm.org/doi/10.1145/3774904.3792937","selected":false,"pages":"8673–8676"},
+    {"id":"peraugy2025","title":"Diversity Augmentation of Dynamic User Preference Data for Boosting Personalized Text Summarizers","authors":"Parthiv Chatterjee, Shivam R. Sonawane, Amey Hengle, Aditya Tanna, Sourish Dasgupta, Tanmoy Chakraborty","venue":"Transactions on Machine Learning Research (TMLR)","year":2025,"type":"Conference & journal","url":"https://arxiv.org/abs/2510.10082","selected":false},
+    {"id":"health2026","title":"Distilling Tabular Foundation Models for Structured Health Data","authors":"Aditya Tanna, Nassim Bouarour, Mohamed Bouadi, Vinay Kumar Sankarapu, Pratinav Seth","venue":"Structured Data for Health (SD4H) @ ICML","year":2026,"type":"Workshop & preprint","url":"https://arxiv.org/abs/2605.18702","selected":true,"award":"Spotlight"},
+    {"id":"credit2026","title":"Data Presentation Over Architecture: Resampling Strategies for Credit Risk Prediction with Tabular Foundation Models","authors":"Aditya Tanna, Mitul Solanki, Mohamed Bouadi, Nassim Bouarour, Pratinav Seth, Vinay Kumar Sankarapu","venue":"FinDS Workshop @ SIGMOD/PODS","year":2026,"type":"Workshop & preprint","url":"https://arxiv.org/abs/2605.18635","selected":false,"award":"Oral"},
+    {"id":"pocket2026","title":"Pocket Foundation Models: Distilling TFMs into CPU-Ready GBDTs","authors":"Aditya Tanna, Nassim Bouarour, Mohamed Bouadi, Pratinav Seth","venue":"FMSD Workshop @ ICML","year":2026,"type":"Workshop & preprint","url":"https://arxiv.org/abs/2605.18654","selected":false},
+    {"id":"ensemble2026","title":"Ensembling Tabular Foundation Models: A Diversity Ceiling and a Calibration Trap","authors":"Aditya Tanna, Yash Desai, Pratinav Seth, Mohamed Bouadi, Nassim Bouarour, Vinay Kumar Sankarapu","venue":"FMSD Workshop @ ICML","year":2026,"type":"Workshop & preprint","url":"https://arxiv.org/abs/2605.18696","selected":true},
+    {"id":"prior2026","title":"Shaping the Prior: How Synthetic Task Distributions Determine Tabular Foundation Model Quality","authors":"Mohamed Bouadi, Nassim Bouarour, Vaibhav Kulkarni, Shubham Dubey, Aditya Tanna, Vinay Kumar Sankarapu","venue":"FMSD Workshop @ ICML","year":2026,"type":"Workshop & preprint","url":"https://arxiv.org/abs/2605.18971","selected":false},
+    {"id":"orionmsp2025","title":"Orion-MSP: Multi-Scale Sparse Attention for Tabular In-Context Learning","authors":"Mohamed Bouadi, Pratinav Seth, Aditya Tanna, Vinay Kumar Sankarapu","venue":"AITD Workshop @ EurIPS","year":2025,"type":"Workshop & preprint","url":"https://arxiv.org/abs/2511.02818","selected":false}
+  ]
+}
