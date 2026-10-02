@@ -63,10 +63,10 @@ page='''<!doctype html>
  <section class="section" id="about"><h2 class="section-title">About</h2>
  <p>Hello! My name is Aditya Tanna, and I am a Research Scientist at <a href="https://github.com/Lexsi-Labs" target="_blank" rel="noopener">Lexsi Labs</a>, where I lead the tabular foundation model team. I study what these models learn from synthetic pretraining, how adaptation changes that knowledge, and how much remains after compression.</p>
  <p>I built and maintain <a href="https://github.com/Lexsi-Labs/TabTune" target="_blank" rel="noopener">TabTune</a>, our open-source library that brings more than ten tabular foundation models under one interface for inference, meta-learning, and fine-tuning [<a class="pub-ref" href="#pub-tabtune2026">WWW ’26</a>]. My research explores fine-tuning and calibration [<a class="pub-ref" href="#pub-finetuning2026">WWW ’26</a>], distillation into CPU-ready students [<a class="pub-ref" href="#pub-health2026">SD4H ’26</a>], the limits of ensembling [<a class="pub-ref" href="#pub-ensemble2026">FMSD ’26</a>], and attention architectures designed for tables [<a class="pub-ref" href="#pub-orionbix2026">WWW ’26</a>, <a class="pub-ref" href="#pub-orionmsp2025">EurIPS ’25</a>].</p>
- <p>Previously, I was a Research Assistant with <strong>Prof. Sourish Dasgupta</strong> at the Knowledge and Discovery Lab, working on preference-diversity augmentation for personalized summarization [<a class="pub-ref" href="#pub-peraugy2025">TMLR ’25</a>]. My undergraduate thesis with <strong>Prof. Abhishek Jindal</strong> investigated ontology-grounded reinforcement learning for clinical question answering [<a class="pub-ref" href="#pub-ontology2026">CIKM ’26</a>]. I completed my B.Tech. in Mathematics and Computing at <strong>Dhirubhai Ambani University</strong> (formerly DA-IICT), with a merit scholarship in all eight semesters.</p>
+ <p>Previously, I was a Research Assistant with <strong>Prof. Sourish Dasgupta</strong> at the Knowledge and Discovery Lab, working on preference-diversity augmentation for personalized summarization [<a class="pub-ref" href="#pub-peraugy2025">TMLR ’25</a>]. My undergraduate thesis with <strong>Prof. Abhishek Jindal</strong> investigated ontology-grounded reinforcement learning for clinical question answering [<a class="pub-ref" href="#pub-ontology2026">CIKM ’26</a>]. I was selected for the <strong>Google DeepMind APAC Research Symposium</strong> in Bengaluru in October 2026 to present my research on reinforcement learning for clinical question answering. I completed my B.Tech. in Mathematics and Computing at <strong>Dhirubhai Ambani University</strong> (formerly DA-IICT), with a merit scholarship in all eight semesters.</p>
  <p><strong>Keywords:</strong> Tabular Foundation Models, Pretraining Priors, Fine-Tuning, Calibration, Distillation, In-Context Learning</p>
  <p>If you’d like to discuss my research or a collaboration, feel free to reach out <a href="mailto:adityatanna29@gmail.com">via email!</a></p>
- <p class="updated">Last updated: September 2026</p></section>
+ <p class="updated">Last updated: __UPDATED__</p></section>
  <section class="section" id="timeline"><h2 class="section-title">Timeline</h2>
  <div class="news-scroll" tabindex="0" role="region" aria-label="Research and career timeline">
   <div class="news-item"><strong>• 2026:</strong> Our work on distilling tabular foundation models for structured health data received a <em>Spotlight</em> at SD4H @ ICML. Our credit-risk study received an <em>Oral</em> presentation at FinDS @ SIGMOD/PODS.</div>
@@ -88,8 +88,11 @@ page='''<!doctype html>
  <p>At Dhirubhai Ambani University, I was a Teaching Assistant for <strong>Object Oriented Programming</strong> with Prof. Sourish Dasgupta (January–June 2025), <strong>Database Management Systems</strong> with Prof. Amit Mankodi (July–December 2024), and <strong>Big Data Processing</strong> with Prof. PM Jat (July–December 2024).</p>
  <p><strong>Reviewer:</strong> NeurIPS 2026, CIKM 2026, and the FMSD and SD4H workshops at ICML 2026.</p>
  </section>
+ <div class="visitor-map" role="region" aria-label="Visitor map">
+  <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=0e1633&w=194&t=n&d=ywW75zsmRNRL2NwY0zhDhkMxYz82g6S7_opVh95mTOo&co=0b4975&cmo=3acc3a&cmn=ff5353&ct=cdd4d9'></script>
+ </div>
  <footer>© 2026 Aditya Tanna. Layout reference: <a href="https://wattsishaan.github.io/" target="_blank" rel="noopener">Ishaan Watts</a>, whose site credits <a href="https://github.com/SebastinSanty/minimal-research-theme" target="_blank" rel="noopener">minimal-research-theme</a>.</footer>
 </main></div></div></body></html>
 '''
-(ROOT/'index.html').write_text(page.replace('__PUBLICATIONS__','\n'.join(pubs)))
-print('Generated homepage with 11 papers and 8 publication figure placements.')
+(ROOT/'index.html').write_text(page.replace('__PUBLICATIONS__','\n'.join(pubs)).replace('__UPDATED__', escape(data['updated'])))
+print(f"Generated homepage with {len(data['publications'])} papers and {sum(p['id'] in figures for p in data['publications'])} publication figure placements.")
