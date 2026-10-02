@@ -2,7 +2,7 @@
 
 Static academic homepage for **https://adityatanna29.github.io/**.
 
-The single-page layout follows the supplied Ishaan Watts reference: left profile column, section navigation, light/dark themes, timeline, publication figures, and projects. The implementation uses original semantic HTML, CSS, and JavaScript. It is not the earlier al-folio preview.
+The single-page layout includes a left profile column, section navigation, light/dark themes, a timeline, publication figures, and projects. The implementation uses original semantic HTML, CSS, and JavaScript. It is not the earlier al-folio preview.
 
 ## Hosting
 
@@ -34,8 +34,3 @@ The default address is determined by the owner and repository name. Changing an 
 
 Supplied image contents are preserved. Figures open at their full available resolution when clicked. Publications without a supplied figure have no invented placeholder. Publication metadata and claims follow the supplied résumé; the résumé itself and all CV download links are excluded.
 
-## Attribution and validation
-
-Design reference: https://wattsishaan.github.io/. Its source credits Sebastin Santy's minimal-research-theme and Lakshay A Agrawal's adaptations. Their personal content, photos, analytics, and verification tokens are not included.
-
-Before upload, local image and asset links, section anchors, JavaScript syntax, publication counts, and the absence of CV files were checked. Browser rendering has not been independently validated.
